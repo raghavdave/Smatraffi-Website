@@ -10,7 +10,7 @@ import { Junction } from "./junction";
 })
 export class DashboardService {
 
-  private apiURL = 'https://rhdpnodeapi.herokuapp.com/getLocations';
+  private apiURL = 'https://smatraffi.azurewebsites.net/getLocations';
 
   constructor(private http:HttpClient) { }
 

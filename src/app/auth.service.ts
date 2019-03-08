@@ -13,7 +13,7 @@ const httpOptions = {
 })
 export class AuthService {
 
-  private apiURL = 'https://rhdpnodeapi.herokuapp.com/users/login';
+  private apiURL = 'https://smatraffi.azurewebsites.net/users/login';
 
   constructor(private http: HttpClient) { }
 

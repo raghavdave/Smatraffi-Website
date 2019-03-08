@@ -12,13 +12,21 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MainNavComponent } from './main-nav/main-nav.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule } from '@angular/material';
+import { TrafficInfoComponent } from './traffic-info/traffic-info.component';
+import { StatsComponent } from './stats/stats.component';
+import { ReportsComponent } from './reports/reports.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
     LoginComponent,
-    MainNavComponent
+    MainNavComponent,
+    TrafficInfoComponent,
+    StatsComponent,
+    ReportsComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

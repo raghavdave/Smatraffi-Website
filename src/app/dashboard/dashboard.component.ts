@@ -14,7 +14,7 @@ export class DashboardComponent implements OnInit {
   centerLat: number = 28.6207298;
   centerLng: number = 77.227523;
   junctions: Junction[] = [];   //Array of junctions from API call
-  userToken: string = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YzdmZTEzMjQwMDNhOTAwMTdhYzJhZWEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTUxODk5MTE1fQ.vt9o3jTNN98KnEnuibZd6j5YYk7Zhub-aCFkm36hWTY";
+  userToken: string = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YzgyOTA4YjkxYzE2ZTAwMmIzOTA4ZWEiLCJhY2Nlc3MiOiJhdXRoIiwiaWF0IjoxNTUyMDYwNjU0fQ.yOqzc3Iw-XrxjdTgZIqMff9D0TQnZoRmksSPvdKBaUI";
 
   constructor(
     private dashboardService: DashboardService,
